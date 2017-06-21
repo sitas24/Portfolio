@@ -46,34 +46,34 @@
           <td>A variable is an element, feature, or factor that is liable to vary or change.</td>
           <td>  </td>
           <td>  </td>
-          <td>  </td>
+          <td>For example, if you are using the vending machine, and click a random letter and a random number, then the specific item for the code you have inputed will be chosen. If you choose a different number and letter, you will receive a different item.</td>
         </tr>
 
         <!-- Fill in the row for Loops -->
         <tr>
           <td><b>Loops</b></td>
+          <td>A loop is a structure, series, or process the end of which is connected to the beginning.</td>
           <td>  </td>
           <td>  </td>
-          <td>  </td>
-          <td>  </td>
+          <td>An easy example is walking. When your brain tells you to walk, the left and right leg move in a cycle to move your body until the destination is reached.</td>
         </tr>
 
         <!-- Fill in the row for Conditionals -->
         <tr>
           <td><b>Conditionals</b></td>
+          <td>Conditional statements constructs are used to perform different computations or actions depending on whether a condition evaluates to true or false.  </td>
           <td>  </td>
           <td>  </td>
-          <td>  </td>
-          <td>  </td>
+          <td>For example, if I have a plethora amount of money, then I will buy a lamborghini or else, I will buy a Honda accord.</td>
         </tr>
 
         <!-- Fill in the row for Functions -->
         <tr>
           <td><b>Functions</b></td>
+          <td>A function is a block of organized, reusable code that is used to perform a single, related action.</td>
           <td>  </td>
           <td>  </td>
-          <td>  </td>
-          <td>  </td>
+          <td>For example,   </td>
         </tr>
 
       </table>

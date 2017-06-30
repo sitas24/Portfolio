@@ -1,18 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <body style="background-color:#ff99c2;">
+<head>
+<style>
+.flex-container {
+	display:-webkit-flex;
+    display:flex;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap;
+    text-align: center;
+    }
     
-    <h1 style="text-align:center;font- Sita Sanigepalli </h1>
+    .flex-container > * {
+    	padding:15px;
+        -webkit-flex: 1 100%;
+        flex: 1 100%;
+    }
     
-    <p style="text-align:center;"> All about me </p> 
+    .article{
+    	text-align: left;
+    }
     
-    <p2><b>Short Biography</b></p2>
+    header {background:#cc001f;color:white;}
+	footer {background:#db0000;color:white;}
+	.nav {background:#e60022;color:white;}
+    
+    .nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    .nav ul a {
+    	text-decoration:none;
+   
+   }
+   @media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+   
+   }
+    </style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Sita Sanigepalli</h1>
+</header>
+
+<nav class="nav">
+<img src="SitaJulie.jpg" alt="my profile pic"    style="width:128px;height:128px;">
+<ul>
+  
+</nav>
+    <article class="article">
+    <h1> All About Me </h1>
+    
+    <p2 style="text-align:left;font-size:75%;"><Short Biography</p2>
     
     <p>My name is Sita. I am new to coding.</p>
     
     <p>Fun Fact!</p>
+   
     
-    <img src="scratch-screenshot.PNG">
-    <p style="text-align:right;"> Links to my favorite websites</p>
+  <button onclick="document.getElementById('myImage').src='scratch_screenshot.png'"> My Scratch Project</button>
+    
+    <img id="myImage" src"="scratch-screenshot.png" style="width:100px">
+        
+
+    
+<p style="text-align:right;font-size:40%"><a href="page2.html" target="_self">Link to favorite websites</a></p>
+    
+
+    
+    
     </body>
+    
+    
 </html>
